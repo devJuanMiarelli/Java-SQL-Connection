@@ -11,7 +11,7 @@ public class CandidatoDAO {
         PreparedStatement statement = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/prova", "root", "2025Vitoria");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/prova", "root", "root");
 
             String banco = "INSERT INTO inscricoes (nome, cpf, telefone, email, endereco, cidade, estado, cep) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
